@@ -20,3 +20,9 @@ strip = true
 
 [patch."https://github.com/Th0rgal/open_oura"]
 oura-store = { path = "vendor/oura-store" }
+# guilindner fork of open_oura, branch local-fixes: upstream main + unmerged PRs
+# #26 (Linux bonded-ring connect), #21 (Ring 4 live HR), #37 (GATT retry),
+# #24 (BlueZ 5.87). Bump the rev when local-fixes moves; drop once upstream merges.
+oura-link = { git = "https://github.com/guilindner/open_oura", rev = "2314c6e832b551e0f2273a1805e0d9659c48da6b" }
+oura-protocol = { git = "https://github.com/guilindner/open_oura", rev = "2314c6e832b551e0f2273a1805e0d9659c48da6b" }
+oura-analysis = { git = "https://github.com/guilindner/open_oura", rev = "2314c6e832b551e0f2273a1805e0d9659c48da6b" }
