@@ -1272,7 +1272,7 @@ checksum = "384b8ab6d37215f3c5301a95a4accb5d64aa607f1fcb26a11b5303878451b4fe"
 [[package]]
 name = "oura-analysis"
 version = "0.1.0"
-source = "git+https://github.com/guilindner/open_oura?rev=2314c6e832b551e0f2273a1805e0d9659c48da6b#2314c6e832b551e0f2273a1805e0d9659c48da6b"
+source = "git+https://github.com/guilindner/open_oura?rev=434d93325b0b49678a9952a612ef3f30be66352f#434d93325b0b49678a9952a612ef3f30be66352f"
 dependencies = [
  "oura-protocol",
  "serde",
@@ -1343,7 +1343,7 @@ dependencies = [
 [[package]]
 name = "oura-link"
 version = "0.1.0"
-source = "git+https://github.com/guilindner/open_oura?rev=2314c6e832b551e0f2273a1805e0d9659c48da6b#2314c6e832b551e0f2273a1805e0d9659c48da6b"
+source = "git+https://github.com/guilindner/open_oura?rev=434d93325b0b49678a9952a612ef3f30be66352f#434d93325b0b49678a9952a612ef3f30be66352f"
 dependencies = [
  "async-trait",
  "btleplug",
@@ -1359,7 +1359,7 @@ dependencies = [
 [[package]]
 name = "oura-protocol"
 version = "0.1.0"
-source = "git+https://github.com/guilindner/open_oura?rev=2314c6e832b551e0f2273a1805e0d9659c48da6b#2314c6e832b551e0f2273a1805e0d9659c48da6b"
+source = "git+https://github.com/guilindner/open_oura?rev=434d93325b0b49678a9952a612ef3f30be66352f#434d93325b0b49678a9952a612ef3f30be66352f"
 dependencies = [
  "aes",
  "hex",
