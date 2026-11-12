@@ -25,6 +25,6 @@ oura-store = { path = "vendor/oura-store" }
 # #24 (BlueZ 5.87), #28 (long-history first sync), #29 (nightly temperature),
 # #39 (SleepNet epoch jitter), #25 (CLI env vars).
 # Bump the rev when local-fixes moves; drop once upstream merges.
-oura-link = { git = "https://github.com/guilindner/open_oura", rev = "434d93325b0b49678a9952a612ef3f30be66352f" }
-oura-protocol = { git = "https://github.com/guilindner/open_oura", rev = "434d93325b0b49678a9952a612ef3f30be66352f" }
-oura-analysis = { git = "https://github.com/guilindner/open_oura", rev = "434d93325b0b49678a9952a612ef3f30be66352f" }
+oura-link = { git = "https://github.com/guilindner/open_oura", rev = "b30b69c5f0e845080d4dcbf152176454e5b76c8e" }
+oura-protocol = { git = "https://github.com/guilindner/open_oura", rev = "b30b69c5f0e845080d4dcbf152176454e5b76c8e" }
+oura-analysis = { git = "https://github.com/guilindner/open_oura", rev = "b30b69c5f0e845080d4dcbf152176454e5b76c8e" }
